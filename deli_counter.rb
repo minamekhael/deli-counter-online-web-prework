@@ -1,5 +1,5 @@
 def line(array)
-  # Created an empty array and start counter for people in line. Display place in line and name. With the ampty array I joined If array.length is 0 displays different message.
+  # rule for array, empty array, start counter to start at 1, 
   if array.length >= 1
      emptyarray = []
      counter = 1 
