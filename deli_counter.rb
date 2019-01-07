@@ -21,6 +21,6 @@ def now_serving(line)
   if line.length == 0 
     puts "There is nobody waiting to be served!"
   else 
-    puts "Now serving number #{line.length}"
+    puts "Now serving number #{line.length}!"
 end
 end
