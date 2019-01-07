@@ -13,5 +13,6 @@ def line(array)
 end
 
 def take_a_number(katz_deli, array)
-  puts 
+  new_person = 
+  array.push new_person
 end 
