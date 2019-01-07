@@ -12,7 +12,6 @@ def line(array)
   end
 end
 
-def take_a_number(katz_deli, array)
-  new_person = 
+def take_a_number(katz_deli, new_person)
   array.push new_person
 end 
