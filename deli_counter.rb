@@ -1,13 +1,13 @@
 def line(array)
-  # rule for array, empty array, start counter to start at 1, 
+  # rule for array, empty array, counter to start at 1, changed array to variable, put info from array and counter into empty_array, started counter. Dispays message using empty_array info, displays differnt message if array.length is 0
   if array.length >= 1
-     emptyarray = []
+     empty_array = []
      counter = 1 
      array.each do |name|
-     emptyarray.push("#{counter}. #{name}")
+     empty_array.push("#{counter}. #{name}")
      counter += 1 
     end 
-    puts "The line is currently: #{emptyarray.join(" ")}"
+    puts "The line is currently: #{empty_array.join(" ")}"
   else
     puts "The line is currently empty."
   end
